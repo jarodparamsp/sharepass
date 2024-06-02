@@ -59,6 +59,6 @@ jobs:
           provenance: false
           push: true
           labels: ${{ steps.meta.outputs.labels }}
-          tags: ${{ steps.meta.outputs.tags }}
+          tags:  'v*.*.*' 
           cache-from: type=registry,ref=${{ secrets.DOCKER_USERNAME }}/pwpush:buildcache
           cache-to: type=registry,ref=${{ secrets.DOCKER_USERNAME }}/pwpush:buildcache,mode=max,ignore-error=${{env.DOCKER_PUSH == 'false'}}

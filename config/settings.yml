@@ -211,9 +211,9 @@ pw:
   # PWP__PW__EXPIRE_AFTER_DAYS_MIN=1
   # PWP__PW__EXPIRE_AFTER_DAYS_MAX=90
   #
-  expire_after_days_default: 7
+  expire_after_days_default: 1
   expire_after_days_min: 1
-  expire_after_days_max: 90
+  expire_after_days_max: 7
 
   # Expire Password Pushes After XX Views
   #
@@ -224,9 +224,9 @@ pw:
   # PWP__PW__EXPIRE_AFTER_VIEWS_MIN=1
   # PWP__PW__EXPIRE_AFTER_VIEWS_MAX=100
   #
-  expire_after_views_default: 5
+  expire_after_views_default: 1
   expire_after_views_min: 1
-  expire_after_views_max: 100
+  expire_after_views_max: 7
 
   # Retrieval Step for Password Pushes
   #
@@ -323,9 +323,9 @@ url:
   # PWP__URL__EXPIRE_AFTER_VIEWS_MIN=1
   # PWP__URL__EXPIRE_AFTER_VIEWS_MAX=100
   #
-  expire_after_views_default: 5
+  expire_after_views_default: 1
   expire_after_views_min: 1
-  expire_after_views_max: 100
+  expire_after_views_max: 7
 
   # Retrieval Step for URL Pushes
   #
@@ -591,13 +591,13 @@ brand:
   #
   # Environment variable override: PWP__BRAND__TITLE='Acme Corp.'
   #
-  title: 'Password Pusher'
+  title: 'SharePass Paratech'
 
   ### Site Tagline
   #
   # Environment variable override: PWP__BRAND__TAGLINE='Security First'
   #
-  tagline: 'Go Ahead.  Email Another Password.'
+  tagline: 'The safest way to share password information.'
 
   ### Site Disclaimer
   #
@@ -794,7 +794,7 @@ feedback:
   # Feedback form.
   #
   # Environment Variable Override: PWP__FEEDBACK__EMAIL='my@email.com'
-  email: 'feedback@pwpush.com'
+  email: 'service@paramsp.com'
 
 ### Docker Pre-compilation
 #

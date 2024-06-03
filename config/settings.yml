@@ -172,7 +172,7 @@ show_gdpr_consent_banner: true
 # PWP__TIMEZONE='America/New_York'
 #
 # Default: 'America/New_York'
-timezone: 'America/New_York'
+timezone: '	America/Chicago'
 
 ### Allowed Hosts
 #
@@ -828,7 +828,7 @@ feedback:
 #
 # Important Note: This setting can only be controlled by environment variable. (PWP__THEME)
 #                 It cannot be set in this config file.
-theme: 'default'
+theme: 'cyborg'
 
 ### Site Default Locale
 #

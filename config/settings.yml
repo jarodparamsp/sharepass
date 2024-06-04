@@ -150,7 +150,7 @@ host_protocol: 'https'
 # PWP__SHOW_VERSION=true
 #
 # Default: true
-show_version: true
+show_version: false
 
 ### Show the GDPR cookie consent banner
 #
@@ -248,7 +248,7 @@ pw:
   # Environment variable override:
   # PWP__PW__RETRIEVAL_STEP_DEFAULT='true'
   #
-  retrieval_step_default: false
+  retrieval_step_default: true
 
   # Deletable Password Pushes
   #
@@ -347,7 +347,7 @@ url:
   # Environment variable override:
   # PWP__URL__RETRIEVAL_STEP_DEFAULT='true'
   #
-  retrieval_step_default: false
+  retrieval_step_default: true
 
 ### File Upload: Expiration & Storage Settings
 #
@@ -398,7 +398,7 @@ files:
   # Environment variable override:
   # PWP__FILES__RETRIEVAL_STEP_DEFAULT='true'
   #
-  retrieval_step_default: false
+  retrieval_step_default: true
 
   # Deletable File Pushes
   #

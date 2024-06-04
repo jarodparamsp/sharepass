@@ -169,10 +169,10 @@ show_gdpr_consent_banner: true
 # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 #
 # Environment variable override:
-# PWP__TIMEZONE='America/New_York'
+# PWP__TIMEZONE='America/Chicago'
 #
-# Default: 'America/New_York'
-timezone: '	America/Chicago'
+# Default: 'America/Chicago'
+timezone: 'America/Chicago'
 
 ### Allowed Hosts
 #
